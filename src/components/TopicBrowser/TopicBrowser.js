@@ -5,6 +5,7 @@ import FilterString from '../Topics/FilterString.js';
 import Palindrome from '../Topics/Palindrome.js';
 import Sum from '../Topics/Sum.js';
 import FizzBuzz from '../Topics/FizzBuzz.js';
+import Fibonacci from '../Topics/Fibonacci.js';
 
 class TopicBrowser extends Component {
     // constructor(props){
@@ -20,6 +21,7 @@ class TopicBrowser extends Component {
                 <Palindrome />
                 <Sum />
                 <FizzBuzz />
+                <Fibonacci />
             </div>
         )
     }
